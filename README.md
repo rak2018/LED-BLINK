@@ -44,39 +44,39 @@ The **LPC2148**, developed by NXP Semiconductors (Philips), is a 16/32-bit ARM7-
    <img width="1920" height="1200" alt="Screenshot 2025-11-10 124822" src="https://github.com/user-attachments/assets/2077b1f4-ad4a-425e-b347-ff3d9c153a96" />
 
 2. Click **File → New STM32 Project**.
-   
+   <img width="1033" height="554" alt="Screenshot 2025-11-11 041003" src="https://github.com/user-attachments/assets/099e4f08-b37d-4c84-862d-c3b8e99a155d" />
+   <img width="1038" height="562" alt="Screenshot 2025-11-11 041025" src="https://github.com/user-attachments/assets/c0e2f68b-bfbb-40b1-a226-fe5353dc0b8d" />
+
 
 3. Select the **target microcontroller** or board and click **Next**.
-   <img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/f93d88b6-cd7f-49db-84de-351f9b116488" />
-
+    <img width="1039" height="560" alt="Screenshot 2025-11-11 041054" src="https://github.com/user-attachments/assets/2693b10f-3274-4071-8b18-40e1057e3888" />
 
 
 4. Name the project.
-   <img width="533" height="588" alt="image" src="https://github.com/user-attachments/assets/63de2bab-69d4-4cb9-8db6-1b57adff9878" />
+<img width="642" height="551" alt="Screenshot 2025-11-10 233009" src="https://github.com/user-attachments/assets/ac653713-7e2f-464d-ac0a-0d9493146a26" />
 
 5. The corresponding `.ioc` file will be generated automatically.
-  <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/8900847c-6745-43e2-9ecf-2e66877fdc49" />
+<img width="1040" height="559" alt="Screenshot 2025-11-10 233043" src="https://github.com/user-attachments/assets/00f8d127-33e2-4e62-b2db-1f302b7a63a6" />
 
 6. Configure the pins as **GPIO (Input/Output)**, **USART**, etc. as needed.
-   <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/acc4f1c4-5e33-431b-8a76-3b102016baa6" />
-<img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/b7abcd80-797d-451f-a7c3-23f303822423" />
+<img width="1001" height="565" alt="Screenshot 2025-11-10 233127" src="https://github.com/user-attachments/assets/c7380893-2ec7-4e51-bf5f-8277db781623" />
+
 
 7. Save the configuration (`Ctrl + S`) – the base C program will be generated automatically.
-   <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/dbf4b205-5db9-4e9b-8150-94f441c8b116" />
- 
+<img width="1050" height="560" alt="Screenshot 2025-11-10 233204" src="https://github.com/user-attachments/assets/18ce0e81-841e-41d8-a80b-1e312ad0be3d" />
+
 8. Edit the generated main program as required.
-   <img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/05b39060-35d6-420d-9f4d-8721439bd82f" />
-<img width="1104" height="621" alt="image" src="https://github.com/user-attachments/assets/2ec55709-a45f-4e6e-8738-6aa94138eab1" />
+<img width="1035" height="566" alt="Screenshot 2025-11-10 233318" src="https://github.com/user-attachments/assets/ee21b745-05f7-4b63-ac3b-bd0814ba655b" />
 
 9. Click **Project → Build All**.
-    <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/264cd0a8-3e96-4668-822e-838ecfafc527" />
-
+ <img width="1007" height="562" alt="Screenshot 2025-11-10 233347" src="https://github.com/user-attachments/assets/05d09ff3-3467-458a-ad4c-f1558af38628" />
+   
 10. Link the **HEX file** using the post-build process.
-    <img width="1053" height="465" alt="image" src="https://github.com/user-attachments/assets/478187a0-0ee6-4c50-9cac-c3b5ee18521b" />
+<img width="897" height="327" alt="Screenshot 2025-11-10 233414" src="https://github.com/user-attachments/assets/87ca0ed1-6749-49ee-b00f-49a5b2b6ff2d" />
 
 11. Click **Debug** and connect the **STM Nucleo Board**.
-    <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/f72fff44-6073-4ae4-aa78-0da455df9af1" />
-
+ <img width="1040" height="567" alt="Screenshot 2025-11-10 233441" src="https://github.com/user-attachments/assets/6c65f0b7-ed05-4f1c-a3ad-24c485b3f1d6" />
+   
 13. Click **Run** to execute the program.
     
 ---
@@ -107,9 +107,13 @@ int main(void)
 ```
 ---
 ### OUTPUT
-CASE 1: LED ON 
+CASE 1: LED ON
+
+<img width="848" height="362" alt="Screenshot 2025-11-10 233632" src="https://github.com/user-attachments/assets/e204a7ce-d436-44a8-87e9-b7ec83e32f90" />
 
 CASE 2: LED OFF
+
+<img width="759" height="357" alt="Screenshot 2025-11-10 233700" src="https://github.com/user-attachments/assets/f7dbaa94-600d-46d6-b381-2abb9cc7bb7d" />
 
 ---
 ### RESULT
